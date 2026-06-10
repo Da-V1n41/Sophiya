@@ -1,0 +1,11 @@
+{
+  "mistral_api_key": "YOUR_MISTRAL_API_KEY_HERE",
+  "spotify_path": "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\Spotify\\Spotify.exe",
+  "debug": false,
+  "duck_level": 0.25,
+  "fade_down_sec": 0.30,
+  "fade_up_sec": 0.50,
+  "tts_cache_max_mb": 100,
+  "inactivity_minutes": 30,
+  "vad_threshold": 300
+}

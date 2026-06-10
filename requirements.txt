@@ -1,0 +1,12 @@
+SpeechRecognition
+pyttsx3
+pyautogui
+yt-dlp
+requests
+mistralai
+sounddevice
+vosk
+scikit-learn
+psutil
+pyperclip
+plyer
