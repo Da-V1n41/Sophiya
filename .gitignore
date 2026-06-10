@@ -1,0 +1,73 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environment ───────────────────────────────────
+[Bb]in/
+[Ii]nclude/
+[Ll]ib/
+[Ll]ib64/
+[Ss]cripts/
+[Ll]ocal/
+share/
+pyvenv.cfg
+.venv/
+venv/
+ENV/
+pip-selfcheck.json
+
+# ── Config with secrets ───────────────────────────────────
+config.json
+
+# ── Vosk speech models (large, download separately) ───────
+vosk-model-uk/
+vosk-model-uk-v3-lgraph/
+model_small/
+
+# ── Generated audio / TTS cache ───────────────────────────
+*.mp3
+.tts_cache/
+
+# ── User data ─────────────────────────────────────────────
+memory.json
+reminders.json
+user_profile.json
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+
+# ── Chrome extension build artefacts ─────────────────────
+chrome_extension.crx
+chrome_extension.pem
+
+# ── Videos ────────────────────────────────────────────────
+videos/
+
+# ── IDE ───────────────────────────────────────────────────
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/caches/
+.idea/sonarlint/
+*.iws
+*.iml
+
+# ── Claude Code internal ──────────────────────────────────
+.claude/
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
