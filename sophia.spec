@@ -21,6 +21,7 @@ datas = [
     (os.path.join(project_dir, 'dataset.json'),  '.'),
     (os.path.join(project_dir, 'aliases.json'),  '.'),
     (os.path.join(project_dir, 'words.py'),      '.'),
+    (os.path.join(project_dir, 'icon.ico'),      '.'),
 
     # Chrome розширення (для browser_bridge)
     (os.path.join(project_dir, 'chrome_extension'), 'chrome_extension'),

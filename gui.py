@@ -91,7 +91,12 @@ class SophiyaUI:
         self.root.configure(fg_color=COLORS['bg'])
 
         try:
-            self.root.iconbitmap('icon.ico')
+            import sys, os
+            if getattr(sys, 'frozen', False):
+                _ico = os.path.join(sys._MEIPASS, 'icon.ico')
+            else:
+                _ico = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icon.ico')
+            self.root.iconbitmap(_ico)
         except Exception:
             pass
 
